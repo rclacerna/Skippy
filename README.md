@@ -1,2 +1,2 @@
 # Skippy
-A sample program that simulates Markov's chain using a multi-dimensional grid
+A sample program that simulates Markov's Chain, using a multi-dimensional grid
