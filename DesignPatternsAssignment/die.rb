@@ -1,8 +1,12 @@
+#
+# Author: Ryan Lacerna
+#
+
 class Die
-  attr_accessor :skippy
+  attr_accessor :skippy, :num_of_hops
 
   def initialize
-    @direction = Hash.new 0
+    @die_face = Hash.new 0
     @num_of_throws = 0
   end
 
@@ -31,7 +35,17 @@ class Die
   end
 
   def count(side)
-    @direction[side] += 1
+    @die_face[side] += 1
   end
-  
+
+  def calculate_die_statistics
+    p " - Finished in #{num_of_hops} hops!"
+    p " - Total throws:: #{@num_of_throws}"
+
+    @die_face.each do |key, value|
+      percentage = (value.to_f/@num_of_throws.to_f) * 100
+      p " -   #{key}: #{percentage.round(2)}%"
+    end
+  end
+
 end

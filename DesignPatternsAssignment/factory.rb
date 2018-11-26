@@ -1,3 +1,7 @@
+#
+# Author: Ryan Lacerna
+#
+
 require_relative 'kangaroo'
 require_relative 'die'
 require_relative 'grid'
