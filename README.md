@@ -21,10 +21,9 @@ A sample program that simulates Markov's Chain, using a multi-dimensional grid
 - The program runs recursively until the ``check_is_home?`` function returns true
 
 # Running the program
-Using the terminal, ``ls`` into the DesignPatternsAssignment folder
-Run ``ruby main.rb``
-
-Enter integer values for X and Y, e.g:
+- Using the terminal, ``ls`` into the DesignPatternsAssignment folder
+- Run ``ruby main.rb``
+- Enter integer values for X and Y, e.g:
 ```sh
 "Please enter size of X of grid >= 1"
 4
