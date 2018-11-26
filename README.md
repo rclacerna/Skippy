@@ -19,6 +19,7 @@ A sample program that simulates Markov's Chain, using a multi-dimensional grid
 - Main.rb contains a single area where we apply all the dependencies of each object
 - I've created a ``Factory.rb`` to house all object creation in one place
 - The program runs recursively until the ``check_is_home?`` function returns true
+- Each class only contains functionality that are related to that object
 
 # Running the program
 - Using the terminal, ``ls`` into the DesignPatternsAssignment folder
